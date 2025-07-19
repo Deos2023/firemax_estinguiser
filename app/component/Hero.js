@@ -13,12 +13,20 @@ const slides = [
     heading: 'Reliable Fire Safety Solutions for Every Business',
   },
   {
-    image: '/hero5.png',
-    heading: 'Your Safety, Our Priority – SafePro Extinguisher',
+    image: '/img/CCTV.png',
+    heading: 'We also provide the CCTV',
+  },
+  {
+    image: '/img/FireDetection.jpg',
+    heading: 'Advance FireDetection System, Your Safety, Our Priority – Firemax Safety & Security.',
   },
   {
     image: '/hero6.png',
     heading: 'Reliable Fire Safety Solutions for Every Business',
+  },
+  {
+    image: '/img/suppression.jpg',
+    heading: 'Suppresion System for Safety Protection.',
   },
 ];
 

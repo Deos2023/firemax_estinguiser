@@ -31,7 +31,7 @@ export default function Navbar() {
           <div className="flex gap-4 items-center flex-wrap text-xs">
             <div className="flex items-center gap-1">
               <MapPin size={14} className="text-red-500" />
-              <span className='lowercase'>72A/3 PURBACHAL MAIN ROAD, KOLKATA - 700078</span>
+              <span className=''>72 A/3 Purbachal Main Road, Kolkata - 700078</span>
             </div>
             <div className="flex items-center gap-1">
               <Mail size={14} className="text-red-500" />

@@ -6,28 +6,28 @@ import Image from 'next/image'
 const products = [
   {
     id: 1,
-    src: '/products/dry.png',
+    src: '/products/powder.jpg',
     title: 'Dry Powder Extinguisher',
   },
   {
     id: 2,
-    src: '/products/foam.png',
+    src: '/products/foam1.jpg',
     title: 'Foam Fire Extinguisher',
   },
   {
     id: 3,
-    src: '/products/co2.png',
+    src: '/products/co2.jpg',
     title: 'CO₂ Fire Extinguisher',
   },
   {
     id: 4,
-    src: '/products/clean.png',
-    title: 'Clean Agent Extinguisher',
+    src: '/products/water.jpg',
+    title: 'Water Extinguisher',
   },
   {
     id: 5,
-    src: '/products/auto.png',
-    title: 'Automatic Modular Extinguisher',
+    src: '/products/wet.jpg',
+    title: 'Wet Extinguisher',
   },
 ]
 
@@ -67,13 +67,13 @@ export default function ProductSlider() {
               key={product.id}
               className="min-w-full sm:min-w-[50%] md:min-w-[33.3%] lg:min-w-[25%] px-4 snap-start"
             >
-              <div className="bg-white rounded-xl shadow-md hover:shadow-xl transition p-4 flex flex-col items-center justify-center">
-                <div className="w-[180px] h-[220px] flex items-center justify-center bg-gray-100 rounded-lg overflow-hidden">
+              <div className="bg-white  hover:shadow-xl transition p-4 flex flex-col items-center justify-center">
+                <div className="w-[180px] h-[350px] flex items-center justify-center  rounded-lg overflow-hidden">
                   <Image
                     src={product.src}
                     alt={product.title}
                     width={160}
-                    height={200}
+                    height={300}
                     className="object-contain"
                   />
                 </div>

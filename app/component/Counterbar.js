@@ -43,7 +43,7 @@ const CounterItem = ({ title, value }) => {
       transition={{ duration: 0.8 }}
       className="text-white text-center"
     >
-      <div className="text-5xl font-bold mb-2">{count}+</div>
+      <div className="text-3xl sm:text-5xl font-bold mb-2">{count}+</div>
       <p className="text-sm">{title}</p>
     </motion.div>
   );
