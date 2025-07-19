@@ -4,8 +4,8 @@ import { useRef } from 'react'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
-const brandLogos = Array.from({ length: 14 }, (_, i) => ({
-  src: `/brand/1 (${i + 1}).png`,
+const brandLogos = Array.from({ length: 25 }, (_, i) => ({
+  src: `/brand/1 (${i + 1}).jpeg`,
   alt: `Brand ${i + 1}`,
 }))
 

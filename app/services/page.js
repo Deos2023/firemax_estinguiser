@@ -97,10 +97,10 @@ function ServicesHeroSection() {
       />
       <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-white drop-shadow-lg mb-4 text-center">
-          Our Comprehensive Services
+          Our Services
         </h1>
         <p className="text-lg sm:text-2xl text-white/90 max-w-2xl text-center">
-          Complete fire safety solutions tailored to protect your business, employees, and assets.
+          A Pioneer in Firefighting & Fire Safety services for more than 30 years.
         </p>
       </div>
     </section>

@@ -6,6 +6,8 @@ import FeatureSection from "./component/FeatureSection";
 import ProductSlider from "./component/ProductSlider";
 import FaqSection from "./component/Faq";
 import TestimonialsSlider from "./component/Testimonials";
+import AboutFiremax from "./component/AboutFire";
+import WhatsAppContact from "./component/WhatsAppContact";
 
 export default function Home() {
   return (
@@ -17,7 +19,7 @@ export default function Home() {
         <div className="relative z-10">
           <HeroSection />
           <FloatingBar />
-          {/* <BrandBar /> */}
+          <BrandBar />
           {/* 🔴 Red geometric background elements */}
         <div className="absolute z-0 top-0 left-0 w-full h-full pointer-events-none">
           {/* Top-left sharp red block */}
@@ -30,9 +32,11 @@ export default function Home() {
           <div className="absolute top-1/3 left-[-40px] w-48 h-48 bg-red-700 opacity-15 rotate-[25deg] rounded-br-[50%]" />
         </div>
           <FeatureSection />
+          <AboutFiremax />
           <ProductSlider />
           <TestimonialsSlider />
           <FaqSection />
+          <WhatsAppContact />
         </div>
       </div>
     </>

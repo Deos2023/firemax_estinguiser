@@ -22,9 +22,10 @@ const tips = [
 ];
 
 const certs = [
-  { name: "ISI Certified", image: "/isi.png" },
+  // { name: "ISI Certified", image: "/isi.png" },
+  { name: "MSME Certified", image: "/msme.png" },
   { name: "ISO 9001:2015", image: "/iso.png" },
-  { name: "Fire Safety Excellence", image: "/firsafety.png" },
+  { name: "FSAI ", image: "/FSAI.png" },
 ];
 
 const itemVariants = {

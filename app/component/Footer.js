@@ -17,7 +17,7 @@ export default function Footer() {
           >
             <h3 className="text-xl font-bold mb-6 text-white">FIREMAX SAFETY & SECURITY PVT. LTD.</h3>
             <p className="text-gray-300 mb-6">
-              Providing trusted fire safety and security solutions since 2017. Safeguarding lives and properties with advanced systems and experienced service.
+              Providing trusted fire safety and security solutions since 1995. Safeguarding lives and properties with advanced systems and experienced service.
             </p>
             <div className="flex gap-4">
               <a href="#" target="_blank" className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition">
@@ -58,7 +58,7 @@ export default function Footer() {
               <li><a href="/" className="text-gray-300 hover:text-white transition">Home</a></li>
               <li><a href="/about" className="text-gray-300 hover:text-white transition">About Us</a></li>
               <li><a href="/services" className="text-gray-300 hover:text-white transition">Services</a></li>
-              <li><a href="/gallery" className="text-gray-300 hover:text-white transition">Gallery</a></li>
+              {/* <li><a href="/gallery" className="text-gray-300 hover:text-white transition">Gallery</a></li> */}
               <li><a href="/contact" className="text-gray-300 hover:text-white transition">Contact</a></li>
             </ul>
           </motion.div>

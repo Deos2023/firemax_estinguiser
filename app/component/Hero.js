@@ -9,12 +9,16 @@ const slides = [
     heading: 'SafePro Extinguisher – Protecting What Matters',
   },
   {
-    image: '/hero2.jpg',
+    image: '/hero4.png',
     heading: 'Reliable Fire Safety Solutions for Every Business',
   },
   {
-    image: '/hero3.jpg',
+    image: '/hero5.png',
     heading: 'Your Safety, Our Priority – SafePro Extinguisher',
+  },
+  {
+    image: '/hero6.png',
+    heading: 'Reliable Fire Safety Solutions for Every Business',
   },
 ];
 
