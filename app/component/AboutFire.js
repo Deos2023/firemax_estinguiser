@@ -39,10 +39,10 @@ export default function AboutFiremax() {
         {/* Right Side - Text */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            FIREMAX FIRE EXTINGUISHER CO.
+            FIREMAX SAFETY & SECURITY
           </h2>
           <p className="text-base leading-relaxed text-gray-800">
-            Established in 1995, <strong>FIREMAX FIRE EXTINGUISHER CO.</strong> is a
+            Established in 1995, <strong>FIREMAX SAFETY & SECURITY</strong> is a
             Kolkata-based pioneer in fire safety manufacturing. We specialize in
             high-quality portable, trolley-mounted, and modular fire extinguishers
             for industrial, commercial, and residential applications.

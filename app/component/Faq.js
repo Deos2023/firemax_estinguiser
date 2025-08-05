@@ -6,22 +6,22 @@ import { ChevronDown } from 'lucide-react'
 
 const faqs = [
   {
-    question: 'Safe Pro ABC Fire Extinguisher',
+    question: 'Is that firemax extinguiser has suitable for A,B,C class fire?',
     answer:
-      'Safe Pro ABC Fire Extinguishers are suitable for class A, B, and C fires. They are multipurpose and ideal for home, office, or industrial use.',
+      'firemax are suitable for class A, B, and C fires. They are multipurpose and ideal for home, office, or industrial use.',
   },
   {
-    question: 'Safe Pro BC Powder Fire Extinguishers',
+    question: 'Firemax BC Powder Fire Extinguishers',
     answer:
       'These extinguishers are designed to combat class B and C fires involving flammable liquids and gases.',
   },
   {
-    question: 'Safe Pro Clean Agent Fire Extinguishers',
+    question: 'Firemax Clean Agent Fire Extinguishers',
     answer:
       'Clean agent extinguishers are ideal for sensitive environments like server rooms, as they leave no residue.',
   },
   {
-    question: 'Safe Pro Kitchen Fire Extinguishers',
+    question: 'Firemax Kitchen Fire Extinguishers',
     answer:
       'Specially made for cooking oil fires (Class K), these extinguishers ensure kitchen safety.',
   },
