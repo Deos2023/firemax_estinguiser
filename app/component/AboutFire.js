@@ -10,7 +10,7 @@ export default function AboutFiremax() {
           <div className="col-span-2">
             <Image
               src="/img3.png"
-              alt="Firemax Factory"
+              alt="Firemax fact"
               width={800}
               height={500}
               className="rounded-lg shadow-md object-cover w-full"
