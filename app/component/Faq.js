@@ -65,7 +65,7 @@ export default function FaqSection() {
           <div className="absolute inset-0 bg-red-600 transform -skew-y-6 rounded-xl -z-10"></div>
          
             <Image
-              src="/838.jpg" // update with your image path
+              src="/faq.jpg" // update with your image path
               alt="Safe Pro Fire Extinguisher"
               width={600}
               height={700}

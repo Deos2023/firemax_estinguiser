@@ -26,6 +26,37 @@ const products = [
   },
   {
     id: 5,
+    src: '/products/hosebox.webp',
+    title: 'Hose Box',
+  },
+  {
+    id: 6,
+    src: '/products/butterfly.jpg',
+    title: 'Butterfly Valve',
+  },
+
+  {
+    id: 7,
+    src: '/products/sspipe.jpg',
+    title: 'SS Branch Pipe',
+  },
+  {
+    id: 8,
+    src: '/products/hydrateValve.jpg',
+    title: 'Hydrant Valve',
+  },
+  {
+    id: 9,
+    src: '/products/gatevalve.jpg',
+    title: 'Gate valve',
+  },
+  {
+    id: 10,
+    src: '/products/rrlhose.jpg',
+    title: 'RRL Hose',
+  },
+   {
+    id: 11,
     src: '/products/wet.jpg',
     title: 'Wet Extinguisher',
   },

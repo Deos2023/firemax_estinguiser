@@ -46,7 +46,7 @@ export default function FloatingBar() {
        </div>
         
             <Image
-            src="/838.jpg" // <-- Replace with your image path (e.g., /banner.jpg)
+            src="/img2.jpg" // <-- Replace with your image path (e.g., /banner.jpg)
             alt="Descriptive alt text"
             width={1200} // Set width as needed
             height={400} // Set height as needed
@@ -55,7 +55,7 @@ export default function FloatingBar() {
           />
 
 
-          <CounterBar />
+          {/* <CounterBar /> */}
 
           
         

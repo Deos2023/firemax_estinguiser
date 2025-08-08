@@ -8,10 +8,10 @@ import FaqSection from "../component/Faq";
 import { motion } from "framer-motion";
 
 const milestones = [
-  { year: "2008", event: "FIREMAX was established with a mission to provide premier fire safety solutions." },
-  { year: "2012", event: "Expanded operations across Kolkata and surrounding regions." },
-  { year: "2018", event: "Launched certified extinguishers and industrial fire safety gear." },
-  { year: "2024", event: "Recognized for excellence in corporate fire safety support." },
+  { year: "1995", event: "FIREMAX was established with a mission to provide premier fire safety solutions." },
+  { year: "2010", event: "Expanded operations across Kolkata and surrounding regions." },
+  { year: "2014", event: "Launched certified extinguishers and industrial fire safety gear." },
+  { year: "2018", event: "Recognized for excellence in corporate fire safety support." },
 ];
 
 const tips = [
@@ -53,7 +53,7 @@ function AboutHeroSection() {
           About FIREMAX Safety & Security
         </h1>
         <p className="text-lg sm:text-2xl text-white/90 max-w-2xl text-center">
-          Trusted experts in fire protection since 2008 — keeping homes and businesses safe with certified equipment and dedicated service.
+          Trusted experts in fire protection since 1995 — keeping homes and businesses safe with certified equipment and dedicated service.
         </p>
       </div>
     </section>
@@ -111,7 +111,7 @@ export default function AboutPage() {
         <section className="max-w-5xl mx-auto px-4 py-16">
           <h2 className="text-3xl font-bold text-gray-800 mb-6">Who We Are</h2>
           <p className="text-lg text-gray-600 mb-8">
-            FIREMAX SAFETY & SECURITY PVT. LTD. is a Kolkata-based leader in fire safety equipment and solutions. Established in 2008, we deliver certified fire extinguishers, industrial protection, and safety consulting services. Our mission is to safeguard lives and assets with innovation, compliance, and customer-first values.
+            FIREMAX SAFETY & SECURITY PVT. LTD. is a Kolkata-based leader in fire safety equipment and solutions. Established in 1995, we deliver certified fire extinguishers, industrial protection, and safety consulting services. Our mission is to safeguard lives and assets with innovation, compliance, and customer-first values.
           </p>
           <ul className="list-disc pl-6 text-gray-700 space-y-2">
             <li>ISI and ISO certified safety equipment</li>

@@ -4,18 +4,18 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const testimonials = [
   {
-    name: "Jane Doe",
-    role: "Facility Manager",
-    quote: "SafePro extinguishers are reliable and easy to use. Highly recommended!",
+    name: " MANIK SRIMANY (PROJECT SUPERVISOR)",
+    role: "BRAINWARE UNIVERSITY ",
+    quote: "Firemax extinguishers are reliable and easy to use. Highly recommended!",
   },
   {
-    name: "John Smith",
-    role: "Business Owner",
+    name: "ARNABHO KUNDU (PURCHASE HEAD)",
+    role: "KUTCHINA",
     quote: "Excellent customer service and top-quality products.",
   },
   {
-    name: "Emily Chen",
-    role: "Safety Officer",
+    name: "ACHINTA DAS  (ZONAL MANAGER)",
+    role: "ASIAN PAINTS",
     quote: "Their products give us peace of mind. Installation was quick and professional.",
   },
 ];

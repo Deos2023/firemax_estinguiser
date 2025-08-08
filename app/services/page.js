@@ -88,7 +88,7 @@ function ServicesHeroSection() {
   return (
     <section className="relative w-full h-[60vh] flex items-center justify-center overflow-hidden rounded-xl shadow-lg mb-10">
       <Image
-        src="/hero3.jpg"
+        src="/servicehero.jpg"
         alt="SafePro Services"
         fill
         className="object-cover"

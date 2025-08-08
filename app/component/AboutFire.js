@@ -9,7 +9,7 @@ export default function AboutFiremax() {
         <div className="grid grid-cols-2 gap-4">
           <div className="col-span-2">
             <Image
-              src="/img1.png"
+              src="/img3.png"
               alt="Firemax Factory"
               width={800}
               height={500}
