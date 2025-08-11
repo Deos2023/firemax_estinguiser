@@ -9,7 +9,7 @@ export default function AboutFiremax() {
         <div className="grid grid-cols-2 gap-4">
           <div className="col-span-2">
             <Image
-              src="/img3.png"
+              src="/collage.png"
               alt="Firemax fact"
               width={800}
               height={500}
@@ -39,26 +39,14 @@ export default function AboutFiremax() {
         {/* Right Side - Text */}
         <div>
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            FIREMAX SAFETY & SECURITY
+            Your Safety, Our Priority: Firemax Safety & Security
           </h2>
           <p className="text-base leading-relaxed text-gray-800">
-            Established in 1995, <strong>FIREMAX SAFETY & SECURITY</strong> is a
-            Kolkata-based pioneer in fire safety manufacturing. We specialize in
-            high-quality portable, trolley-mounted, and modular fire extinguishers
-            for industrial, commercial, and residential applications.
-          </p>
-          <p className="text-base mt-4 leading-relaxed text-gray-800">
-            With a modern factory in Kolkata, our production capacity exceeds
-            <strong> 8,000 units per day</strong>. Our facility is equipped with an
-            advanced R&D lab, precision testing units, and an experienced technical
-            team that ensures consistent product quality aligned with national and
-            international safety standards.
-          </p>
-          <p className="text-base mt-4 leading-relaxed text-gray-800">
-            We offer third-party testing upon request, ensuring transparency and
-            compliance. Our mission is to protect lives and assets with fire safety
-            products that deliver peace of mind. At FIREMAX, we go beyond compliance
-            — we set the benchmark in protection.
+             
+At Firemax Safety & Security Pvt Ltd., we don't just sell fire protection equipment; we provide comprehensive fire safety solutions tailored to your specific needs. As project integrators and consultants, we take a holistic approach to fire safety, guiding you from initial risk assessment and design to installation and ongoing maintenance.
+Our expertise spans all aspects of fire and safety. We're your single point of contact for everything from advanced fire suppression systems and alarm networks to passive fire protection and emergency planning following NBCC, NFPA, WBFES & regional authorities. We're committed to protecting your people, your assets, and your business with cutting-edge technology and unparalleled expertise. We're not just a vendor; we're your partner in safety. We also undertake the entire project on a turnkey basis, starting from designing, drawing, supply, commissioning & testing of Fire Detection & Protection systems
+Let's build a safer future together.
+
           </p>
         </div>
       </div>

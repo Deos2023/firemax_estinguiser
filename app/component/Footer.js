@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Facebook, Instagram } from 'lucide-react'
+import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -20,12 +21,12 @@ export default function Footer() {
               Providing trusted fire safety and security solutions since 1995. Safeguarding lives and properties with advanced systems and experienced service.
             </p>
             <div className="flex gap-4">
-              <a href="#" target="_blank" className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition">
+              <a href="https://www.facebook.com/share/1A4vHMpmCy/" target="_blank" className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" target="_blank" className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition">
+              {/* <a href="#" target="_blank" className="bg-blue-600 hover:bg-blue-700 p-2 rounded-full transition">
                 <Instagram className="w-5 h-5" />
-              </a>
+              </a> */}
             </div>
           </motion.div>
 
@@ -76,6 +77,12 @@ export default function Footer() {
                 <Phone className="w-5 h-5 mt-1 text-blue-400" />
                 <div>
                   <p className="text-gray-300">9051737934</p>
+                </div>
+              </li>
+                <li className="flex items-start gap-3">
+                <FaWhatsapp className="w-5 h-5 mt-1 text-blue-400" />
+                <div>
+                  <p className="text-gray-300"> 9830039346</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">

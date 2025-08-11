@@ -6,24 +6,29 @@ import { ChevronDown } from 'lucide-react'
 
 const faqs = [
   {
-    question: 'Is that firemax extinguiser has suitable for A,B,C class fire?',
+    question: ' What Is an ABC Fire Extinguisher?',
     answer:
-      'firemax are suitable for class A, B, and C fires. They are multipurpose and ideal for home, office, or industrial use.',
+      'An ABC extinguisher is a multi-purpose dry chemical extinguisher that uses a specially treated monoammonium phosphate powder, sometimes mixed with ammonium sulfate. This agent can combat.',
   },
   {
-    question: 'Firemax BC Powder Fire Extinguishers',
+    question: 'CO₂ fire extinguisher',
     answer:
-      'These extinguishers are designed to combat class B and C fires involving flammable liquids and gases.',
+      'A CO₂ fire extinguisher is a pressurized cylinder that discharges carbon dioxide gas, designed primarily to suppress Class B (flammable liquid) and Class C (electrical) fires. Because CO₂ is non‑conductive and leaves no residue, it’s especially suited for environments with sensitive electronic or electrical equipment.',
   },
   {
-    question: 'Firemax Clean Agent Fire Extinguishers',
+    question: 'Dry Chemical (Powder) Extinguishers ',
     answer:
-      'Clean agent extinguishers are ideal for sensitive environments like server rooms, as they leave no residue.',
+      'Dry Chemical (Powder) extinguishers—commonly labeled ABC or BC—use a fine powder (such as monoammonium phosphate, sodium or potassium bicarbonate) to snuff out fires by interrupting the chemical reaction and smothering flames for Class A (solids), B (liquids), and C (electrical) hazards.',
   },
   {
-    question: 'Firemax Kitchen Fire Extinguishers',
+    question: 'Kitchen fire extinguisher ',
     answer:
-      'Specially made for cooking oil fires (Class K), these extinguishers ensure kitchen safety.',
+      'Designed specifically for combating deep-frying and cooking oil/fat fires, these extinguishers release a potassium-based mist that cools the burning oil and initiates saponification, forming a soapy foam layer that smothers the fire and prevents re-ignition.',
+  },
+  {
+    question: 'Clean Agent Fire Extinguisher',
+    answer:
+      'Clean agent extinguishers discharge a fast-evaporating, non-conductive gas that suppresses Class A, B, and C fires by interrupting the chemical reaction or removing heat, all without leaving residue or damaging sensitive equipment. They are ideal for data centers, museums, laboratories, telecom rooms, and other environments where minimal cleanup and equipment protection are paramount.',
   },
 ]
 

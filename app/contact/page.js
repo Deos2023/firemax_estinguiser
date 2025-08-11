@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 import { BrandBar } from "../component/BrandBar";
+import { FaWhatsapp, FaWhatsappSquare } from "react-icons/fa";
 
 const itemVariants = {
   hidden: { opacity: 0, y: 40 },
@@ -137,12 +138,24 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold text-gray-800 mb-1">
-                      Phone Numbers
+                      Phone Number
                     </h3>
                     <p className="text-gray-600">+91 9051737934</p>
                   </div>
                 </div>
 
+                 {/* Whatsapp */}
+                <div className="flex items-start">
+  <div className="bg-red-100 p-3 rounded-full mr-4">
+    <FaWhatsapp className="text-green-500 w-6 h-6" />
+  </div>
+  <div>
+    <h3 className="text-xl font-semibold text-gray-800 mb-1">
+      Whatsapp Number
+    </h3>
+    <p className="text-gray-600">+91 9830039346</p>
+  </div>
+</div>
                 {/* Email */}
                 <div className="flex items-start">
                   <div className="bg-red-100 p-3 rounded-full mr-4">

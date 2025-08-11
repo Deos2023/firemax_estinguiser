@@ -8,7 +8,7 @@ import FaqSection from "../component/Faq";
 import { motion } from "framer-motion";
 
 const milestones = [
-  { year: "1995", event: "FIREMAX was established with a mission to provide premier fire safety solutions." },
+  { year: "1995", event: "Firemax was established with a mission to provide premier fire safety solutions." },
   { year: "2010", event: "Expanded operations across Kolkata and surrounding regions." },
   { year: "2014", event: "Launched certified extinguishers and industrial fire safety gear." },
   { year: "2018", event: "Recognized for excellence in corporate fire safety support." },
@@ -50,7 +50,7 @@ function AboutHeroSection() {
       />
       <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center">
         <h1 className="text-4xl sm:text-5xl font-bold text-white drop-shadow-lg mb-4 text-center">
-          About FIREMAX Safety & Security
+          About Firemax Safety & Security
         </h1>
         <p className="text-lg sm:text-2xl text-white/90 max-w-2xl text-center">
           Trusted experts in fire protection since 1995 — keeping homes and businesses safe with certified equipment and dedicated service.

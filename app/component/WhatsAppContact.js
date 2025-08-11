@@ -21,7 +21,7 @@ export default function WhatsAppContact() {
 
     const message = `Hello, I have an inquiry:\n\nFull Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nCity: ${city}\nProduct: ${product}`;
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/919051737934?text=${encodedMessage}`, "_blank");
+    window.open(`https://wa.me/919830039346?text=${encodedMessage}`, "_blank");
   };
 
   return (
@@ -30,7 +30,7 @@ export default function WhatsAppContact() {
         {/* Left side image */}
         <div className="bg-white rounded-lg overflow-hidden shadow-xl p-4">
           <Image
-            src="/cnt.png"
+            src="/contact.png"
             alt="Support Team"
             width={600}
             height={400}
