@@ -57,7 +57,7 @@ export default function ContactPage() {
     const { name, email, phone, service, message } = formData;
 
     const whatsappMessage = `Hello, my name is ${name}.%0AEmail: ${email}%0APhone: ${phone}%0AService Interested In: ${service}%0AMessage: ${message}`;
-    const phoneNumber = "919051737934";
+    const phoneNumber = "919830039346";
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURI(
       whatsappMessage
     )}`;
