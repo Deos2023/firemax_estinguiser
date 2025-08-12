@@ -7,7 +7,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const slides = [
   {
     image: '/hero1.jpg',
-    heading: 'SafePro Extinguisher – Protecting What Matters',
+    heading: 'Firemax Safety & Security – Protecting What Matters',
   },
   {
     image: '/hero4.png',
