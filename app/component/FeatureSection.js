@@ -36,7 +36,7 @@ export default function FeatureSection() {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="border rounded-lg p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition duration-300"
+            className="group border rounded-lg p-6 flex flex-col items-center text-center shadow-sm hover:shadow-md transition duration-300"
           >
             <div className="bg-red-600 p-4 rounded-full mb-4">
               {feature.icon}
@@ -45,7 +45,14 @@ export default function FeatureSection() {
               {feature.title}
             </h3>
             <p className="text-sm text-gray-600 mb-4">{feature.description}</p>
-            <button className="mt-auto text-black bg-white border border-gray-300 px-4 py-2 rounded font-semibold hover:bg-gray-100">
+            
+            <button
+              className="mt-auto px-4 py-2 rounded font-semibold border border-red-600 text-red-600 bg-transparent
+                         transform -translate-x-6 opacity-0
+                         transition-all duration-300 ease-in-out
+                         group-hover:translate-x-0 group-hover:opacity-100
+                         group-hover:bg-red-600 group-hover:text-white"
+            >
               Read More
             </button>
           </div>
