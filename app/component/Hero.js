@@ -7,7 +7,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const slides = [
   {
     image: '/hero1.jpg',
-    heading: 'Firemax extinguishers are reliable and easy to use. Highly recommended!',
+    heading: 'Firemax Safety & Security are reliable and easy to use. Highly recommended!',
   },
   {
     image: '/hero4.png',
