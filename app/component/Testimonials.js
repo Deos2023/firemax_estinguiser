@@ -6,7 +6,7 @@ const testimonials = [
   {
     name: " MANIK SRIMANY (PROJECT SUPERVISOR)",
     role: "BRAINWARE UNIVERSITY ",
-    quote: "Firemax extinguishers are reliable and easy to use. Highly recommended!",
+    quote: "Firemax safety are reliable and easy to use. Highly recommended!",
   },
   {
     name: "ARNABHO KUNDU (PURCHASE HEAD)",
