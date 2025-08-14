@@ -5,6 +5,7 @@ import FloatingBar from "../component/FloatingBar";
 import { BrandBar } from "../component/BrandBar";
 import TestimonialsSlider from "../component/Testimonials";
 import FaqSection from "../component/Faq";
+import Link from "next/link";
 
 const services = [
   {
@@ -162,9 +163,9 @@ export default function ServicesPage() {
                       </li>
                     ))}
                   </ul>
-                  <button className="w-full bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-3 rounded-lg font-medium hover:from-red-600 hover:to-red-700 transition-all">
+                  <Link href="/contact" className="w-full bg-gradient-to-r from-red-500 to-red-600 text-white px-6 py-3 rounded-lg font-medium hover:from-red-600 hover:to-red-700 transition-all">
                     Learn More
-                  </button>
+                  </Link>
                 </div>
               </motion.div>
             ))}
