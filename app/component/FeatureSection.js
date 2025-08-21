@@ -8,7 +8,7 @@ export default function FeatureSection() {
       icon: <FileText size={32} className="text-white" />,
       title: 'Assured Quality',
       description:
-        'Safe pro fire, a Mumbai (Maharashtra) based business entity, is setting new paradigms of excellence by catering to various industrial sectors.',
+        'Firemax, a Kolkata based business entity is setting new paradigms of excellence by catering to various industries and across all sectors.',
     },
     {
       icon: <BarChart size={32} className="text-white" />,
@@ -20,7 +20,7 @@ export default function FeatureSection() {
       icon: <Users size={32} className="text-white" />,
       title: 'Experienced & Skilled Team',
       description:
-        'The company has acquired huge clientele in the regions of South America, Eastern Europe, Southeast Asia, Africa etc.',
+        'The company has built a strong clientele across India, delivering reliable products and services from its base in Kolkata.',
     },
     {
       icon: <Handshake size={32} className="text-white" />,
