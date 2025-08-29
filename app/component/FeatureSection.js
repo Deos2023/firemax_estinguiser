@@ -46,7 +46,7 @@ export default function FeatureSection() {
             </h3>
             <p className="text-sm text-gray-600 mb-4">{feature.description}</p>
             
-            <button
+            {/* <button
               className="mt-auto px-4 py-2 rounded font-semibold border border-red-600 text-red-600 bg-transparent
                          transform -translate-x-6 opacity-0
                          transition-all duration-300 ease-in-out
@@ -54,7 +54,7 @@ export default function FeatureSection() {
                          group-hover:bg-red-600 group-hover:text-white"
             >
               Read More
-            </button>
+            </button> */}
           </div>
         ))}
       </div>

@@ -39,16 +39,20 @@ export default function Navbar() {
             </div>
           </div>
           <div className="flex items-center gap-3 text-xs font-medium">
-            <button className="hover:underline">Help</button>
-            <button className="hover:underline">Support</button>
-            <button className="hover:underline">Faqs</button>
-            <div className="hidden sm:flex items-center gap-2 text-lg ml-2">
-              <FaTwitter className="hover:text-red-500 transition-colors" />
-              <FaFacebookF className="hover:text-red-500 transition-colors" />
-              <FaInstagram className="hover:text-red-500 transition-colors" />
-              <FaYoutube className="hover:text-red-500 transition-colors" />
-            </div>
-          </div>
+  <Link href="/contact" className="hover:underline">
+    Support
+  </Link>
+  <Link href="/" className="hover:underline">
+    Faqs
+  </Link>
+  <div className="hidden sm:flex items-center gap-2 text-lg ml-2">
+    <FaTwitter className="hover:text-red-500 transition-colors" />
+    <FaFacebookF className="hover:text-red-500 transition-colors" />
+    <FaInstagram className="hover:text-red-500 transition-colors" />
+    <FaYoutube className="hover:text-red-500 transition-colors" />
+  </div>
+</div>
+
         </div>
       </div>
 
