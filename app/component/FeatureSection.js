@@ -20,7 +20,7 @@ export default function FeatureSection() {
       icon: <Users size={32} className="text-white" />,
       title: 'Experienced & Skilled Team',
       description:
-        'The company has built a strong clientele across India, delivering reliable products and services from its base in Kolkata.',
+        'The company has acquired and serviced huge clientele across the eastern region of india and some parts of the rest of India also.',
     },
     {
       icon: <Handshake size={32} className="text-white" />,

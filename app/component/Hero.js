@@ -7,7 +7,7 @@ import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 const slides = [
   {
     image: '/hero1.jpg',
-    heading: 'Firemax Safety & Security are reliable and easy to use. Highly recommended!',
+    heading: 'Firemax Safety is a reliable & experience brand in the field of fire & Safety.',
   },
   {
     image: '/hero4.png',
