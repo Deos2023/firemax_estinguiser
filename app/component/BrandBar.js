@@ -17,7 +17,7 @@ export function  BrandBar() {
     <section className="bg-white ">
       <div className="max-w-7xl mx-auto  px-4">
         <div className="my-6 text-center">
-          <p className="text-red-600 font-semibold uppercase tracking-wide">Our Trusted Brands</p>
+          <p className="text-red-600 font-semibold uppercase tracking-wide">Our Trusted Clients</p>
         </div>
         <div className="overflow-hidden relative">
           <motion.div
